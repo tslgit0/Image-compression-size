@@ -19,7 +19,8 @@ python image_compression.py [filepath] [size] [tag]
 ```
 filepath是路径  
 size是大小 单位是kb  
-tag是指定是否 用api进行无损压缩 值是1或0 默认是0 如果不想用api 则此处tag参数可以不要 并且可以忽略第二第三步  
+tag是指定是否 用api进行无损压缩 值是1或0 默认是0  
+如果不想用api 则此处tag参数可以不要 并且可以忽略第二第三步  
 例如
 ```
 python compress-with-tinypng.py /home/sample 500 1
