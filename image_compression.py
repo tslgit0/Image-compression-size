@@ -8,8 +8,8 @@ import sys
 import tinify
 
 
-#tinify.key = "在此处输入你的API—key"
-tinify.key = "VrxjpkJ02mzz84Zx70nCZz6yYqyXnh6Y"
+tinify.key = "在此处输入你的API—key"
+
 
 def get_file_dir(file):
     """获取文件目录通用函数"""
